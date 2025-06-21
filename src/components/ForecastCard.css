@@ -1,0 +1,36 @@
+.forecast-container {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.forecast-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.forecast-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.forecast-card .day {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.forecast-card .temp {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.forecast-card .desc {
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  color: #666;
+}

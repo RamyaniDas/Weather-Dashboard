@@ -1,0 +1,42 @@
+.search-history {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eef;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.search-history h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.search-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-history li {
+  margin-bottom: 8px;
+}
+
+.search-history button {
+  background-color: #3399ff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.search-history button:hover {
+  background-color: #007acc;
+}
+
+.empty {
+  color: #666;
+  font-style: italic;
+}
